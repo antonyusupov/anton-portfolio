@@ -1,0 +1,196 @@
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-dark-grey);
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__container h3 {
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 55px;
+    font-weight: 500;
+    color: var(--color-light-pink);
+    text-transform: uppercase;
+    margin-top: 5rem;
+    letter-spacing: 0.2rem;
+}
+
+.contact__container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__container-content h4 {
+    font-family: var(--font-family);
+    font-size: 40px;
+    line-height: 75px;
+    font-weight: 600;
+    color: var(--color-white);
+    text-transform: capitalize;
+}
+
+.contact__container-content p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 35px;
+    color: var(--color-dark-white);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.contact__container-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__container-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.contact__container-form input,  
+.contact__container-form textarea{
+    width: 100%;
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: var(--color-dark-white);
+    padding: 1rem 0;
+    margin: 0.5rem 0;
+    background: var(--color-dark-grey);
+    border: none;
+    border-bottom: 1px solid var(--color-light-grey);
+    outline: none;
+}
+
+.contact__container-form button {
+    width: 100%;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-white);
+    padding: 1rem 0;
+    margin: 0.5rem 0;
+    background: var(--color-light-pink);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.contact__container-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__links-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.contact__links-content_social {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.contact__links-content_social a {
+    font-size: xx-large;
+    color: var(--color-white);
+    padding: 1rem 0;
+}
+
+.contact__links-content_social h6 {
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-light-pink);
+    padding-bottom: 0.5rem;
+}
+
+.contact__links-content_social p {
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: var(--color-dark-white);
+    padding: 0 0.5rem;
+}
+
+.contact__social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.contact__social-links a {
+    margin: 1rem 2rem;
+    font-size: 20px;
+    color: var(--color-white);
+}
+
+.contact__footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.contact__footer p {
+    font-family: var(--font-family);
+    color: var(--color-light-grey);
+    margin: 0 2rem;
+    text-align: center;
+}
+
+.contact__footer p span {
+    font-size: 14px;
+    color: var(--color-white);
+}
+
+@media screen and (max-width: 550px) {
+
+    .contact__container-content h4 {
+        font-size: 25px;
+    }
+
+    .contact__container-content p {
+        font-size: 14px;
+    }
+
+    .contact__container-form form {
+        padding: 1rem 2rem;
+    }
+
+    .contact__footer  {
+        display: block;
+    }
+
+    .contact__footer p {
+        margin: 1rem 0;
+    }
+}

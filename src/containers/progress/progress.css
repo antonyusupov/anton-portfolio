@@ -1,0 +1,42 @@
+.progress {
+    width: 100%;
+    padding: 3rem 2rem;
+    background: var(--color-dark-pink);
+}
+
+.progress__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.progress__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}
+
+.progress__content span {
+    font-size: 40px;
+    color: var(--color-black);
+    padding-bottom: 1rem;
+}
+
+.progress__content h5 {
+    font-family: var(--font-family);
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+.progress__content p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 300;
+    color: var(--color-dark-white);
+    text-transform: uppercase;
+}
